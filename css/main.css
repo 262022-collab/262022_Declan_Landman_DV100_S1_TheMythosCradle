@@ -1,12 +1,9 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../assets/img/homeHeader.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 822px;
 }
+
+
 
 
 
@@ -32,11 +29,19 @@ src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
     padding-bottom: 11px;
     background-color: rgb(237, 243, 241);
     opacity: 0.7;
-    margin-top: 29px;
     margin-left: 75px;
     margin-right: 75px;
     border-radius: 33px;
 
+}
+
+header{
+    background-image: url("../assets/img/homeHeader.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 822px;
+    padding-top: 29px;
 }
 
 .navLinks{
@@ -69,5 +74,12 @@ src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
     font-size: 50px;
     margin-top: 360px;
     letter-spacing: 3px;
+    color: rgb(255, 213, 0);
 }
+
+.secondSection{
+    height: 822px;
+    background-color: #061866; 
+}
+
 
