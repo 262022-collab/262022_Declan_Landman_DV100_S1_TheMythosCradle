@@ -40,7 +40,7 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 822px;
+    height: 920px;
     padding-top: 29px;
 }
 
@@ -78,8 +78,18 @@ header{
 }
 
 .secondSection{
-    height: 822px;
+    display: flex;
+   justify-content: space-around; 
+   align-items: center;
+    height: 920px;
     background-color: #061866; 
+}
+
+.sliderimgone{
+    width: 620px;
+    display: block;
+   
+
 }
 
 
