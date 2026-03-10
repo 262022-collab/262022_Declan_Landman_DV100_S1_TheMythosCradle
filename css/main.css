@@ -1,7 +1,15 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../assets/img/homeHeader.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 822px;
 }
+
+
+
 
 @font-face{
 font-family: "TitleFont";
