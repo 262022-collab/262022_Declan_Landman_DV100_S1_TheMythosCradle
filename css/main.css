@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Poppins', sans-serif
 }
 
 
@@ -26,7 +26,7 @@ src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
     justify-content: center;
     align-items: center;
     
-    padding: 11px 75px;
+    padding: 7px 75px;
     background-color: rgb(237, 243, 241);
     opacity: 0.7;
     margin-left: 75px;
