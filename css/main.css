@@ -40,7 +40,7 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 920px;
+    height: 850px;
     padding-top: 29px;
     display: flex;
     flex-direction: column;
@@ -86,18 +86,21 @@ header{
     display: flex;
     
     justify-content: space-around;
-    gap: 30px;
+    gap: 100px;
     
 }
 
 .para{
     border: 2px solid red;
     width: 620px;
-    height: 700px;
+    height: 600px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
+    
+    
+   
     
     
 }
@@ -121,3 +124,35 @@ header{
    
 
 }
+
+.para h3,
+.para h3,
+.para p{
+    margin: 0;
+}
+
+
+.byj{
+    padding-top: 110px;
+    color: #e9ad1c;
+    font-size: 18pt;
+}
+
+.tlgh{
+    
+    line-height: 1.3;
+    color: white;
+    font-size: 40pt;
+    padding-bottom: 24px;
+    
+}
+
+.pGraph{
+    
+    color: #ffffff;
+    font-size: 16pt;
+    
+}
+
+
+
