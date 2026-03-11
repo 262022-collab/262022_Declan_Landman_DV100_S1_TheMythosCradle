@@ -85,7 +85,7 @@ header{
 }
 
 .sliderimgone{
-    width: 650px;
+    width: 690px;
     height: 700px;
     display: block;
 }
@@ -117,6 +117,77 @@ header{
     font-size: 16pt;
     
 }
+
+.containerTwo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+
+.thirdSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 77vh;
+    background-color: #ffffff; 
+    
+}
+
+.textTwo{
+  
+  border: 2px solid red;
+    width: 600px;
+    height: 550px;
+    padding: 20px 110px;
+    margin-left: 35px;
+    
+    
+    
+    
+}
+
+.imgtwo{
+    border: 2px solid red;
+    width: 740px;
+    height: 500px;
+    padding: 44px 41px;
+    border-radius: 33px;
+    
+    
+}
+
+
+
+.textTwo h3,
+.textTwo h3,
+.textTwo p{
+    margin: 0;
+}
+
+.tc{
+    padding-top: 110px;
+    color: #15d5f5;
+    font-size: 16pt;
+}
+
+.aswmcff{
+    
+    line-height: 1.3;
+    color: #002d68;
+    font-size: 30pt;
+    word-spacing: 4px;
+    padding-bottom: 24px;
+}
+
+.pGraphtwo{
+    
+    color: black;
+    font-size: 16pt;
+    
+}
+
+
 
 
 
