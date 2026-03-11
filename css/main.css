@@ -3,11 +3,6 @@ body{
     font-family: 'Poppins', sans-serif
 }
 
-
-
-
-
-
 @font-face{
 font-family: "TitleFont";
 src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
@@ -19,6 +14,17 @@ src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
     display: block;
     margin: 0 auto 15px;
     
+}
+
+header{
+    background-image: url("../assets/img/homeHeader.png");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    height: 115vh;
+    padding-top: 29px;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar{
@@ -35,43 +41,17 @@ src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
 
 }
 
-header{
-    background-image: url("../assets/img/homeHeader.png");
-    background-size: cover;
-    
-    background-repeat: no-repeat;
-    height: 115vh;
-    padding-top: 29px;
-    display: flex;
-    flex-direction: column;
-}
-
 .navLinks{
     display: flex;
-    
-    
-
     gap: 30px;
-    
     font-size: 17.5px;
-
 }
 
 .navLinks a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.608);
-    
 }
 
-.pageTitle{
-    font-family: "TitleFont", sans-serif;
-    font-size: 26px;
-    letter-spacing: 1px;
-    margin-left: 104px;
-    color: rgb(255, 153, 0);
-    
-    
-}
 
 .midCard{
     font-family: "TitleFont", sans-serif;
@@ -84,45 +64,30 @@ header{
 
 .container{
     display: flex;
-    
     justify-content: space-around;
     gap: 100px;
-    
+}
+
+.secondSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: #002d68; 
 }
 
 .para{
     border: 2px solid red;
     width: 620px;
     height: 600px;
-
     display: flex;
     flex-direction: column;
-    
-    
-    
-   
-    
-    
-}
-
-.secondSection{
-    display: flex;
-    justify-content: space-evenly;
-    
-   
-    align-items: center;
-    
-   
-    height: 100vh;
-    background-color: #002d68; 
 }
 
 .sliderimgone{
     width: 650px;
     height: 700px;
     display: block;
-   
-
 }
 
 .para h3,
@@ -144,7 +109,6 @@ header{
     color: white;
     font-size: 40pt;
     padding-bottom: 24px;
-    
 }
 
 .pGraph{
