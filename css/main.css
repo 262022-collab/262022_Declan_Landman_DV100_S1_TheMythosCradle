@@ -205,9 +205,58 @@ header{
     
 }
 
-.i1{
+.i1,
+.i2,
+.i3,
+.i4{
     border-radius: 15px;
+    height: 350px;
 }
+
+
+.imgPercy img,
+.imgPercy h3,
+.imgPercy p,
+.imgRipple img,
+.imgRipple h3,
+.imgRipple p,
+.imgAtlas img,
+.imgAtlas h3,
+.imgAtlas p,
+.imgSkye img,
+.imgSkye h3,
+.imgSkye p{
+    margin: 0;
+}
+
+.imgPercy,
+.imgRipple,
+.imgAtlas,
+.imgSkye{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.percyTitle,
+.rippleTitle,
+.atlasTitle,
+.skyeTitle{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.percyDesc,
+.rippleDesc,
+.atlasDesc,
+.skyeDesc{
+    color: #ffffff;
+    text-align: center;
+}
+
 
 
 
