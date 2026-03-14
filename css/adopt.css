@@ -25,6 +25,7 @@ header{
     padding-top: 29px;
     display: flex;
     flex-direction: column;
+   
 }
 
 .navbar{
@@ -50,6 +51,21 @@ header{
 .navLinks a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.608);
+}
+
+
+
+
+
+
+.adoptMainTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "TitleFont", sans-serif;
+    font-size: 100px;
+    color: #ffffff;
+    
 }
 
 .introduction{
