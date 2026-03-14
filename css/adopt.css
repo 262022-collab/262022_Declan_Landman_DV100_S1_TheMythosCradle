@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif
+}
+
+@font-face{
+font-family: "TitleFont";
+src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
+}
+
+
+.logoimg{
+    width: 100px;
+    display: block;
+    margin: 0 auto 15px;
+    
+}
+
+header{
+    background-image: url("../assets/img/adoptHeader.png");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    height: 50vh;
+    padding-top: 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 7px 75px;
+    background-color: rgb(237, 243, 241);
+    opacity: 0.7;
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius: 33px;
+
+}
+
+.navLinks{
+    display: flex;
+    gap: 30px;
+    font-size: 17.5px;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.608);
+}
+
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002d68;
+    height: 50vh;
+    
+}
+
+.introText p,
+.introText p{
+    margin: 0;
+}
+
+.introText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.yellowHead{
+    font-size: 45px;
+    color: #e9ad1c;
+    font-family: 'Metamorphous', sans-serif
+    
+    
+}
+
+.introParagraph{
+    color: #ffffff;
+    font-size: 20px;
+}
+
