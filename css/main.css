@@ -189,11 +189,22 @@ header{
 
 .forthSection{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     height: 115vh;
     background-color: #002d68; 
     
+}
+
+.testtit{
+    text-align: center;
+    color: #e9ad1c;
+}
+.testtit2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
 }
 
 .containerThree{
@@ -213,7 +224,8 @@ header{
     height: 350px;
 }
 
-
+.testHead h3,
+.testHead h1,
 .imgPercy img,
 .imgPercy h3,
 .imgPercy p,
@@ -255,6 +267,16 @@ header{
 .skyeDesc{
     color: #ffffff;
     text-align: center;
+}
+
+.CALbutton button{
+    border-radius: 16px;
+    padding: 20px 25px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #15d5f5;
+    font-family: 'Poppins', sans-serif
+    
 }
 
 
