@@ -88,3 +88,39 @@ header{
     font-size: 20px;
 }
 
+.yellowbar{
+    background-color: #e9ad1c;
+    height: 14vh;
+}
+
+.blueDragon{
+    background-color: #ffffff;
+    height: 110vh;
+}
+
+.kitsune{
+    background-color: #002d68;
+    height: 110vh;
+}
+
+.griffin{
+    background-color: #ffffff;
+    height: 110vh;
+}
+
+.waterWisp{
+    background-color: #002d68;
+    height: 110vh;
+}
+
+.pegasus{
+    background-color: #ffffff;
+    height: 110vh;
+}
+
+.forestSpirit{
+    background-color: #002d68;
+    height: 110vh;
+}
+
+
