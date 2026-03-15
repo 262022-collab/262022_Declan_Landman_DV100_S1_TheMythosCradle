@@ -109,10 +109,63 @@ header{
     height: 14vh;
 }
 
+
+.bdImg img{
+    margin: 0;
+}
+
 .blueDragon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     height: 110vh;
+    gap: 105px;
 }
+.adoptDataBD{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.titleBDtext{
+    font-size: 50px; 
+    margin: 0;
+}
+
+.discountPrice{
+    font-size: 20px;
+    color: grey;
+    margin: 0;
+}
+.regPrice{
+    font-size: 20px;
+    color: grey;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+
+.priceBD{
+    display: flex;
+    gap: 50px;
+}
+
+.paraBDtext{
+    font-size: 15px;
+    font-weight: 16pt;
+    line-height: 2;
+    
+}
+
+.Azuron{
+    height: 700px;
+    width: 610px;
+    
+    
+}
+
+
 
 .kitsune{
     background-color: #002d68;
