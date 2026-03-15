@@ -134,12 +134,12 @@ header{
 }
 
 .discountPrice{
-    font-size: 20px;
+    font-size: 26px;
     color: grey;
     margin: 0;
 }
 .regPrice{
-    font-size: 20px;
+    font-size: 26px;
     color: grey;
     text-decoration: line-through;
     margin: 0;
@@ -151,12 +151,47 @@ header{
     gap: 50px;
 }
 
+.yellowstarBD{
+    color: #e9ad1c;
+    font-size: 30px;
+    margin: 0;
+}
+
 .paraBDtext{
     font-size: 15px;
     font-weight: 16pt;
     line-height: 2;
+    margin: 0;
     
 }
+
+.adoptButtonsBD{
+    display: flex;
+    gap: 30px;
+}
+
+.counterBD{
+    border-radius: 11px;
+    border-color: #002d68;
+    padding: 15px 35px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #002d68;
+    font-family: 'Poppins', sans-serif
+    
+}
+
+.atcBD{
+    border-radius: 11px;
+    border-color: #15d5f5;
+    padding: 15px 60px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #15d5f5;
+    font-family: 'Poppins', sans-serif
+    
+}
+
 
 .Azuron{
     height: 700px;
