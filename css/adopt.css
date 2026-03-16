@@ -122,6 +122,14 @@ header{
     height: 110vh;
     gap: 105px;
 }
+
+
+.Azuron{
+    height: 700px;
+    width: 610px;
+    border-radius: 17px; 
+}
+
 .adoptDataBD{
     display: flex;
     flex-direction: column;
@@ -193,13 +201,6 @@ header{
 }
 
 
-.Azuron{
-    height: 700px;
-    width: 610px;
-    
-    
-}
-
 
 
 .kitsune{
@@ -227,4 +228,30 @@ header{
     height: 110vh;
 }
 
+.info-box{
+    width:600px;
+    font-family: Arial, sans-serif;
+    color:#9e9e9e;
+
+    border-top:1px solid #d9d9d9;
+    padding-top:20px;
+}
+
+.row{
+    display:flex;
+    
+}
+
+.label{
+    width:150px;
+}
+
+.colon{
+    width:20px;
+    text-align:center;
+}
+
+.value{
+    flex:1;
+}
 
