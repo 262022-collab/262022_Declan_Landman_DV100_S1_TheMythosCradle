@@ -95,11 +95,9 @@ header{
 }
 
 
-.bdImg img{
-    margin: 0;
-}
 
-.blueBackground{
+
+.whiteBackground{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,19 +107,19 @@ header{
 }
 
 
-.Azuron{
+.adoptImg{
     height: 700px;
     width: 540px;
     border-radius: 17px; 
 }
 
-.adoptDataBD{
+.adoptData{
     display: flex;
     flex-direction: column;
     padding-right: 20px;
 }
 
-.titleBDtext{
+.titleText{
     font-size: 50px; 
     margin: 0;  
 }
@@ -139,33 +137,33 @@ header{
     margin: 0;
 }
 
-.priceBD{
+.price{
     display: flex;
     gap: 61px;
     padding-bottom: 7px;
 }
 
-.yellowstarBD{
+.yellowstar{
     color: #e9ad1c;
     font-size: 30px;
     margin: 0;
     padding-bottom: 7px;
 }
 
-.paraBDtext{
+.paraText{
     font-size: 19px;
     font-weight: 16pt;
     line-height: 1.8;
     margin: 0;
 }
 
-.adoptButtonsBD{
+.adoptButtons{
     display: flex;
     gap: 35px;
     padding-top: 13px;
 }
 
-.counterBD{
+.counterBut{
     border-radius: 11px;
     border-color: #002d68;
     padding: 23px 51px;
@@ -175,7 +173,7 @@ header{
     font-family: 'Poppins', sans-serif
 }
 
-.atcBD{
+.atcBut{
     border-radius: 11px;
     border-color: #15d5f5;
     padding: 15px 95px;
@@ -185,7 +183,7 @@ header{
     font-family: 'Poppins', sans-serif
 }
 
-.kitsune{
+.blueBackground{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,70 +192,6 @@ header{
     gap: 105px;
 }
 
-.Yuki{
-    height: 700px;
-    width: 540px;
-    border-radius: 17px; 
-}
-
-.adoptDataKit{
-    display: flex;
-    flex-direction: column;
-    padding-right: 20px;
-}
-
-.titleKittext{
-    font-size: 50px; 
-    margin: 0;  
-}
-
-
-
-.priceKit{
-    display: flex;
-    gap: 61px;
-    padding-bottom: 7px;
-}
-
-.yellowstarKit{
-    color: #e9ad1c;
-    font-size: 30px;
-    margin: 0;
-    padding-bottom: 7px;
-}
-
-.paraKittext{
-    font-size: 19px;
-    font-weight: 16pt;
-    line-height: 1.8;
-    margin: 0;
-}
-
-.adoptButtonsKit{
-    display: flex;
-    gap: 35px;
-    padding-top: 13px;
-}
-
-.counterKit{
-    border-radius: 11px;
-    border-color: #002d68;
-    padding: 23px 51px;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #002d68;
-    font-family: 'Poppins', sans-serif
-}
-
-.atcKit{
-    border-radius: 11px;
-    border-color: #15d5f5;
-    padding: 15px 95px;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #15d5f5;
-    font-family: 'Poppins', sans-serif
-}
 
 .griffin{
     background-color: #ffffff;
