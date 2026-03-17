@@ -260,3 +260,81 @@ header{
     margin: 0;
 }
 
+
+
+.bottomAdditional{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 43vh;
+    background-color: #ffffff; 
+    
+}
+
+.imgBrandlogo{
+    height: 61px;
+}
+
+.brand_Desc{
+    padding-bottom: 40px;
+    
+}
+
+.comp{
+    line-height: 3;
+}
+
+.HAC{
+    line-height: 2.6;
+}
+
+.smPicsText{
+    padding-bottom: 57px;
+}
+
+.faceBook,
+.tikTok,
+.instaGram,
+.twitX{
+    
+    height: 65px;
+    padding-left: 8px;
+}
+
+.smlText{
+    padding-left: 8px;
+    
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+    text-align: center;
+    
+    padding: 25px 40px;
+    background-color: #ffffff;
+    color: rgb(45, 45, 45);
+
+}
+
+.footerRight{
+    display:flex;
+    gap: 25px;
+    padding-right: 100px;
+}
+
+.footerRight a{
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+
+}
+
+.footerLeft{
+    margin-left: 100px;
+}
+
+
