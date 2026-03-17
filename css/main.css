@@ -43,18 +43,16 @@ header{
     font-size: 21px;
     font-weight: 600;
     color:rgb(42, 42, 42);
-    
 }
 
-
-
-.midCard{
+.MainTitle{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 120px;
     font-family: "TitleFont", sans-serif;
-    margin-left: 926px;
-    font-size: 50px;
-    margin-top: 360px;
-    letter-spacing: 3px;
+    font-size: 110px;
     color: #e9ad1c;
+    padding-top: 290px;
 }
 
 .container{
