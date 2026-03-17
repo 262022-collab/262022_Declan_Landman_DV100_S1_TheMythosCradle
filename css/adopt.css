@@ -13,33 +13,28 @@ src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
     width: 100px;
     display: block;
     margin: 0 auto 15px;
-    
-}
+    }
 
 header{
     background-image: url("../assets/img/adoptHeader.png");
     background-size: cover;
-    
     background-repeat: no-repeat;
     height: 50vh;
     padding-top: 29px;
     display: flex;
     flex-direction: column;
-   
 }
 
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     padding: 7px 75px;
     background-color: rgb(237, 243, 241);
     opacity: 0.7;
     margin-left: 75px;
     margin-right: 75px;
     border-radius: 33px;
-
 }
 
 .navLinks{
@@ -53,11 +48,6 @@ header{
     color: rgba(0, 0, 0, 0.608);
 }
 
-
-
-
-
-
 .adoptMainTitle{
     display: flex;
     justify-content: center;
@@ -65,7 +55,6 @@ header{
     font-family: "TitleFont", sans-serif;
     font-size: 100px;
     color: #ffffff;
-    
 }
 
 .introduction{
@@ -74,7 +63,6 @@ header{
     align-items: center;
     background-color: #002d68;
     height: 50vh;
-    
 }
 
 .introText p,
@@ -88,15 +76,12 @@ header{
     justify-content: center;
     text-align: center;
     gap: 20px;
-
 }
 
 .yellowHead{
     font-size: 45px;
     color: #e9ad1c;
     font-family: 'Metamorphous', sans-serif
-    
-    
 }
 
 .introParagraph{
@@ -146,13 +131,13 @@ header{
     color: grey;
     margin: 0;
 }
+
 .regPrice{
     font-size: 26px;
     color: grey;
     text-decoration: line-through;
     margin: 0;
 }
-
 
 .priceBD{
     display: flex;
@@ -166,16 +151,16 @@ header{
 }
 
 .paraBDtext{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 16pt;
     line-height: 2;
     margin: 0;
-    
 }
 
 .adoptButtonsBD{
     display: flex;
     gap: 30px;
+    
 }
 
 .counterBD{
@@ -186,7 +171,6 @@ header{
     color: #ffffff;
     background-color: #002d68;
     font-family: 'Poppins', sans-serif
-    
 }
 
 .atcBD{
@@ -197,11 +181,7 @@ header{
     color: #ffffff;
     background-color: #15d5f5;
     font-family: 'Poppins', sans-serif
-    
 }
-
-
-
 
 .kitsune{
     background-color: #002d68;
@@ -228,30 +208,45 @@ header{
     height: 110vh;
 }
 
-.info-box{
-    width:600px;
-    font-family: Arial, sans-serif;
-    color:#9e9e9e;
 
+
+
+
+
+.info-box{
+    width:690px;
     border-top:1px solid #d9d9d9;
-    padding-top:20px;
+
+    
+    color:gray;
+    
+
+
+    
+    padding-top: 38px;
+    margin-top: 45px;
+    line-height: 2.3;
 }
 
 .row{
     display:flex;
+    margin: 0;
     
 }
 
-.label{
-    width:150px;
+.item{
+    width:105px;
+    margin: 0;
 }
 
 .colon{
-    width:20px;
+    width:40px;
     text-align:center;
+    margin: 0;
 }
 
-.value{
+.description{
     flex:1;
+    margin: 0;
 }
 
