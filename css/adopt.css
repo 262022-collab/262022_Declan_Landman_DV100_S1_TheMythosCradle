@@ -159,14 +159,38 @@ header{
 .price{
     display: flex;
     gap: 61px;
-    padding-bottom: 7px;
+    
+}
+
+.starsRatingBox{
+    display: flex;
+    align-items: center;
+    
+
+
+}
+.divider{
+    font-size: 38px;
+    font-weight: 200;
+    
+    color: grey;
+    padding-right: 23px;
+    
+    margin: 0;
+}
+
+.label{
+    color: gray;
+    font-size: 15px;
+    margin: 0;
 }
 
 .yellowstar{
     color: #e9ad1c;
     font-size: 30px;
     margin: 0;
-    padding-bottom: 7px;
+    padding-right: 70px;
+    
 }
 
 .paraTextBlack{
