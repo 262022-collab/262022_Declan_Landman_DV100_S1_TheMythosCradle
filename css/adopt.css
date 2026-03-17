@@ -124,6 +124,7 @@ header{
 .titleBDtext{
     font-size: 50px; 
     margin: 0;
+    
 }
 
 .discountPrice{
@@ -142,12 +143,14 @@ header{
 .priceBD{
     display: flex;
     gap: 61px;
+    padding-bottom: 7px;
 }
 
 .yellowstarBD{
     color: #e9ad1c;
     font-size: 30px;
     margin: 0;
+    padding-bottom: 7px;
 }
 
 .paraBDtext{
@@ -216,7 +219,7 @@ header{
 
 .info-box{
     width:700px;
-    border-top:1px solid #d9d9d9;
+    border-top:1px solid rgb(171, 171, 171);
     font-size: 17px;
 
     
