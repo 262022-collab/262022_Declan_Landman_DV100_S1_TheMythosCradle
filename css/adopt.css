@@ -105,6 +105,14 @@ header{
     height: 110vh;
     gap: 105px;
 }
+.blueBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002d68;
+    height: 110vh;
+    gap: 105px;
+}
 
 
 .adoptImg{
@@ -119,14 +127,25 @@ header{
     padding-right: 20px;
 }
 
-.titleText{
+.titleTextBlack{
     font-size: 50px; 
     margin: 0;  
+}
+.titleTextWhite{
+    font-size: 50px; 
+    margin: 0;
+    color: #ffffff;  
 }
 
 .discountPrice{
     font-size: 28px;
     color: grey;
+    margin: 0;
+}
+
+.discountPriceBlue{
+    font-size: 28px;
+    color: #15d5f5;
     margin: 0;
 }
 
@@ -150,11 +169,18 @@ header{
     padding-bottom: 7px;
 }
 
-.paraText{
+.paraTextBlack{
     font-size: 19px;
     font-weight: 16pt;
     line-height: 1.8;
     margin: 0;
+}
+.paraTextWhite{
+    font-size: 19px;
+    font-weight: 16pt;
+    line-height: 1.8;
+    margin: 0;
+    color: #ffffff;
 }
 
 .adoptButtons{
@@ -163,7 +189,7 @@ header{
     padding-top: 13px;
 }
 
-.counterBut{
+.counterButBlue{
     border-radius: 11px;
     border-color: #002d68;
     padding: 23px 51px;
@@ -172,6 +198,16 @@ header{
     background-color: #002d68;
     font-family: 'Poppins', sans-serif
 }
+.counterButOrange{
+    border-radius: 11px;
+    border-color: #e9ad1c;
+    padding: 23px 51px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #e9ad1c;
+    font-family: 'Poppins', sans-serif
+}
+
 
 .atcBut{
     border-radius: 11px;
@@ -183,20 +219,8 @@ header{
     font-family: 'Poppins', sans-serif
 }
 
-.blueBackground{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #002d68;
-    height: 110vh;
-    gap: 105px;
-}
 
 
-.griffin{
-    background-color: #ffffff;
-    height: 110vh;
-}
 
 .waterWisp{
     background-color: #002d68;
