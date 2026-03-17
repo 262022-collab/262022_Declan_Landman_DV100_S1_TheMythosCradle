@@ -111,14 +111,14 @@ header{
 
 .Azuron{
     height: 700px;
-    width: 610px;
+    width: 540px;
     border-radius: 17px; 
 }
 
 .adoptDataBD{
     display: flex;
     flex-direction: column;
-    padding-right: 100px;
+    padding-right: 20px;
 }
 
 .titleBDtext{
@@ -127,13 +127,13 @@ header{
 }
 
 .discountPrice{
-    font-size: 26px;
+    font-size: 28px;
     color: grey;
     margin: 0;
 }
 
 .regPrice{
-    font-size: 26px;
+    font-size: 28px;
     color: grey;
     text-decoration: line-through;
     margin: 0;
@@ -141,7 +141,7 @@ header{
 
 .priceBD{
     display: flex;
-    gap: 50px;
+    gap: 61px;
 }
 
 .yellowstarBD{
@@ -151,22 +151,23 @@ header{
 }
 
 .paraBDtext{
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 16pt;
-    line-height: 2;
+    line-height: 1.8;
     margin: 0;
 }
 
 .adoptButtonsBD{
     display: flex;
-    gap: 30px;
+    gap: 35px;
+    padding-top: 13px;
     
 }
 
 .counterBD{
     border-radius: 11px;
     border-color: #002d68;
-    padding: 15px 35px;
+    padding: 23px 51px;
     font-size: 18px;
     color: #ffffff;
     background-color: #002d68;
@@ -176,7 +177,7 @@ header{
 .atcBD{
     border-radius: 11px;
     border-color: #15d5f5;
-    padding: 15px 60px;
+    padding: 15px 95px;
     font-size: 18px;
     color: #ffffff;
     background-color: #15d5f5;
@@ -214,8 +215,9 @@ header{
 
 
 .info-box{
-    width:690px;
+    width:700px;
     border-top:1px solid #d9d9d9;
+    font-size: 17px;
 
     
     color:gray;
