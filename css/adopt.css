@@ -99,7 +99,7 @@ header{
     margin: 0;
 }
 
-.blueDragon{
+.blueBackground{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,8 +123,7 @@ header{
 
 .titleBDtext{
     font-size: 50px; 
-    margin: 0;
-    
+    margin: 0;  
 }
 
 .discountPrice{
@@ -164,7 +163,6 @@ header{
     display: flex;
     gap: 35px;
     padding-top: 13px;
-    
 }
 
 .counterBD{
@@ -188,8 +186,77 @@ header{
 }
 
 .kitsune{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #002d68;
     height: 110vh;
+    gap: 105px;
+}
+
+.Yuki{
+    height: 700px;
+    width: 540px;
+    border-radius: 17px; 
+}
+
+.adoptDataKit{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.titleKittext{
+    font-size: 50px; 
+    margin: 0;  
+}
+
+
+
+.priceKit{
+    display: flex;
+    gap: 61px;
+    padding-bottom: 7px;
+}
+
+.yellowstarKit{
+    color: #e9ad1c;
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 7px;
+}
+
+.paraKittext{
+    font-size: 19px;
+    font-weight: 16pt;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.adoptButtonsKit{
+    display: flex;
+    gap: 35px;
+    padding-top: 13px;
+}
+
+.counterKit{
+    border-radius: 11px;
+    border-color: #002d68;
+    padding: 23px 51px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #002d68;
+    font-family: 'Poppins', sans-serif
+}
+
+.atcKit{
+    border-radius: 11px;
+    border-color: #15d5f5;
+    padding: 15px 95px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #15d5f5;
+    font-family: 'Poppins', sans-serif
 }
 
 .griffin{
@@ -221,13 +288,7 @@ header{
     width:700px;
     border-top:1px solid rgb(171, 171, 171);
     font-size: 17px;
-
-    
     color:gray;
-    
-
-
-    
     padding-top: 38px;
     margin-top: 45px;
     line-height: 2.3;
@@ -236,7 +297,6 @@ header{
 .row{
     display:flex;
     margin: 0;
-    
 }
 
 .item{
