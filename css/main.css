@@ -8,21 +8,6 @@ font-family: "TitleFont";
 src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 header{
     background-image: url("../assets/img/homeHeader.png");
     background-size: cover;
@@ -47,7 +32,6 @@ header{
 
 .mcLogo{
     height: 70px;
-    
 }
 
 .navLinks{
@@ -68,18 +52,14 @@ header{
     background: #ffffff;
     border-radius: 9px;
     padding: 15px 20px;
-    
     width: 300px;
-    
 }
-
 
 .magIcon {
     font-size: 18px; 
     color: rgb(153, 153, 153);
     margin-right: 10px;
 }
-
 
 .search-bar input {
     flex: 1;
@@ -88,22 +68,17 @@ header{
     background-color: #ffffff;
     font-size: 17px;
     font-weight: 450;
-    font-family: 'Poppins', sans-serif
-    
-    
+    font-family: 'Poppins', sans-serif  
 }
+
 .search-bar input::placeholder {
     color: rgb(59, 59, 59);
 }
 
-
-
-
 .cart {
     font-size: 24px;
     cursor: pointer;
-    color: #444;
-    
+    color: #444;  
 }
 
 .MainTitle{

@@ -31,8 +31,7 @@ header{
 }
 
 .mcLogo{
-    height: 70px;
-    
+    height: 70px;   
 }
 
 .navLinks{
@@ -53,9 +52,7 @@ header{
     background: #ffffff;
     border-radius: 9px;
     padding: 15px 20px;
-    
     width: 300px;
-    
 }
 
 
@@ -65,7 +62,6 @@ header{
     margin-right: 10px;
 }
 
-
 .search-bar input {
     flex: 1;
     border: none;
@@ -73,24 +69,18 @@ header{
     background-color: #ffffff;
     font-size: 17px;
     font-weight: 450;
-    font-family: 'Poppins', sans-serif
-    
-    
+    font-family: 'Poppins', sans-serif   
 }
+
 .search-bar input::placeholder {
     color: rgb(59, 59, 59);
 }
 
-
-
-
 .cart {
     font-size: 24px;
     cursor: pointer;
-    color: #444;
-    
+    color: #444; 
 }
-
 
 .adoptMainTitle{
     display: flex;
