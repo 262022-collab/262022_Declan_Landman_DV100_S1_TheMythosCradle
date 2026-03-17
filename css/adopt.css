@@ -94,9 +94,6 @@ header{
     height: 14vh;
 }
 
-
-
-
 .whiteBackground{
     display: flex;
     justify-content: center;
@@ -105,6 +102,7 @@ header{
     height: 110vh;
     gap: 105px;
 }
+
 .blueBackground{
     display: flex;
     justify-content: center;
@@ -113,7 +111,6 @@ header{
     height: 110vh;
     gap: 105px;
 }
-
 
 .adoptImg{
     height: 700px;
@@ -131,6 +128,7 @@ header{
     font-size: 50px; 
     margin: 0;  
 }
+
 .titleTextWhite{
     font-size: 50px; 
     margin: 0;
@@ -159,23 +157,18 @@ header{
 .price{
     display: flex;
     gap: 61px;
-    
 }
 
 .starsRatingBox{
     display: flex;
     align-items: center;
-    
-
-
 }
+
 .divider{
     font-size: 38px;
     font-weight: 200;
-    
     color: grey;
     padding-right: 23px;
-    
     margin: 0;
 }
 
@@ -189,8 +182,7 @@ header{
     color: #e9ad1c;
     font-size: 30px;
     margin: 0;
-    padding-right: 70px;
-    
+    padding-right: 70px; 
 }
 
 .paraTextBlack{
@@ -199,6 +191,7 @@ header{
     line-height: 1.8;
     margin: 0;
 }
+
 .paraTextWhite{
     font-size: 19px;
     font-weight: 16pt;
@@ -222,6 +215,7 @@ header{
     background-color: #002d68;
     font-family: 'Poppins', sans-serif
 }
+
 .counterButOrange{
     border-radius: 11px;
     border-color: #e9ad1c;
@@ -232,7 +226,6 @@ header{
     font-family: 'Poppins', sans-serif
 }
 
-
 .atcBut{
     border-radius: 11px;
     border-color: #15d5f5;
@@ -242,16 +235,6 @@ header{
     background-color: #15d5f5;
     font-family: 'Poppins', sans-serif
 }
-
-
-
-
-
-
-
-
-
-
 
 .info-box{
     width:700px;
@@ -284,15 +267,12 @@ header{
     margin: 0;
 }
 
-
-
 .bottomAdditional{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 43vh;
     background-color: #ffffff; 
-    
 }
 
 .imgBrandlogo{
@@ -301,7 +281,6 @@ header{
 
 .brand_Desc{
     padding-bottom: 40px;
-    
 }
 
 .comp{
@@ -320,29 +299,23 @@ header{
 .tikTok,
 .instaGram,
 .twitX{
-    
     height: 65px;
     padding-left: 8px;
 }
 
 .smlText{
     padding-left: 8px;
-    
 }
-
 
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
     align-items: center;
     text-align: center;
-    
     padding: 25px 40px;
     background-color: #ffffff;
     color: rgb(45, 45, 45);
-
 }
 
 .footerRight{
@@ -354,7 +327,6 @@ footer{
 .footerRight a{
     text-decoration: none;
     color: rgb(45, 45, 45);
-
 }
 
 .footerLeft{
