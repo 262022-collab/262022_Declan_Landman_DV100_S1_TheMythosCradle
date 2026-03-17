@@ -8,13 +8,6 @@ font-family: "TitleFont";
 src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
 }
 
-
-.logoimg{
-    width: 100px;
-    display: block;
-    margin: 0 auto 15px;
-    }
-
 header{
     background-image: url("../assets/img/adoptHeader.png");
     background-size: cover;
@@ -29,12 +22,17 @@ header{
    display: flex;
    justify-content: center; 
    align-items: center;
+   gap: 230px;
    padding: 12px 0;
    margin-left: 90px;
    margin-right: 90px;
-   background-color: rgb(237, 243, 241);
-   opacity: 0.7;
+   background-color: rgba(237, 243, 241, 0.7);
    border-radius: 40px;
+}
+
+.mcLogo{
+    height: 70px;
+    
 }
 
 .navLinks{
@@ -46,11 +44,52 @@ header{
     text-decoration: none;
     font-size: 21px;
     font-weight: 600;
-    color:rgb(42, 42, 42);
+    color:rgb(96, 95, 95);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 9px;
+    padding: 15px 20px;
+    
+    width: 300px;
     
 }
 
 
+.magIcon {
+    font-size: 18px; 
+    color: rgb(153, 153, 153);
+    margin-right: 10px;
+}
+
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 17px;
+    font-weight: 450;
+    font-family: 'Poppins', sans-serif
+    
+    
+}
+.search-bar input::placeholder {
+    color: rgb(59, 59, 59);
+}
+
+
+
+
+.cart {
+    font-size: 24px;
+    cursor: pointer;
+    color: #444;
+    
+}
 
 
 .adoptMainTitle{
