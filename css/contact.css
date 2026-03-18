@@ -263,23 +263,37 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 43vh;
-    background-color: #ffffff; 
+    background-color: #ffffff;  
 }
 
 .imgBrandlogo{
-    height: 61px;
+    height: 75px;
+    padding-bottom: 7px;
+}
+
+.brandDesc{
+    font-size: 19px;
+    padding-left: 7px;
+    color: #626262;
+    line-height: 1.6;
+    padding-bottom:20px ;
+    margin: 0;
 }
 
 .brand_Desc{
-    padding-bottom: 40px;
+    padding-bottom: 40px;   
 }
 
 .comp{
+    font-size: 20px;
+    font-weight: 600;
     line-height: 3;
 }
 
 .HAC{
-    line-height: 2.6;
+    line-height: 2.4;
+    font-size: 19px;
+    color: #626262;
 }
 
 .smPicsText{
@@ -290,18 +304,21 @@ header{
 .tikTok,
 .instaGram,
 .twitX{
-    height: 65px;
+    height: 88px;
     padding-left: 8px;
 }
 
 .smlText{
     padding-left: 8px;
+    font-size: 20px;
+    font-weight: 600;  
 }
 
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-top:1px solid #e1e1e1;
     align-items: center;
     text-align: center;
     padding: 25px 40px;
@@ -311,8 +328,10 @@ footer{
 
 .footerRight{
     display:flex;
-    gap: 25px;
-    padding-right: 100px;
+    gap: 29px;
+    padding-right: 150px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .footerRight a{
@@ -323,7 +342,6 @@ footer{
 .footerLeft{
     margin-left: 100px;
 }
-
 
 
 
