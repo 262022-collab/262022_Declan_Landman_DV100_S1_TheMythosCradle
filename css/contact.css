@@ -55,7 +55,6 @@ header{
     width: 300px;
 }
 
-
 .magIcon {
     font-size: 18px; 
     color: rgb(153, 153, 153);
@@ -165,23 +164,18 @@ header{
 .whole{
     display: flex;
     flex-direction: column;
-    
-    gap: 47px;
-    
-    
+    gap: 47px; 
 }
 
 .contactForm form{
-    
-   
-    background-color: aquamarine;
+    background-image: url("../assets/img/formBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50px;
 }
 
 .formElement{
-    
    padding-left: 67px; 
-    
 }
 
 .send{
@@ -195,27 +189,24 @@ header{
 
 .formElement label{
     color: white;
-    
-    
     font-size: 23px;
     font-weight: 500;
-    
 }
 
 .contactForm input,
 .contactForm textarea{
-    
-    
-    padding-right: 450px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    
-    border: 1px solid #ec1414;
+    padding-right: 345px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 35px;
+    border: none;
     border-radius: 14px;
     font-family: 'Poppins';
+    font-size: 19px;
     margin-top: 20px;
+    resize: vertical;
+    color: #ccc;
 }
-
 
 .contactForm button{
     width: auto;
@@ -232,16 +223,8 @@ header{
     color: #ffffff;
 }
 
-
-
-.butt{
-    
-    
-}
-
 .contactForm button:hover{
     background-color: #002d68;
-    
 }
 
 .bottomAdditional{
