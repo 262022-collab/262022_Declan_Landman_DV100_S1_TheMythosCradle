@@ -174,7 +174,8 @@ header{
 .contactForm form{
     
    
-    background-color: #88c397;
+    background-image: url("../assets/img/formBackground.png");
+    background-size: cover;
     border-radius: 50px;
 }
 
@@ -184,7 +185,7 @@ header{
     
 }
 
-.submit{
+.send{
     padding-left: 67px;
     font-size: 47px;
     font-weight: 700;
@@ -217,17 +218,16 @@ header{
 }
 
 
-
-
 .contactForm button{
+    width: auto;
+    align-self: flex-start;
+}
+
+
+
+.butt{
     
-    border-radius: 11px;
-    border-color: #15d5f5;
-    padding: 10px 1opx;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #15d5f5;
-    font-family: 'Poppins', sans-serif
+    
 }
 
 .contactForm button:hover{
