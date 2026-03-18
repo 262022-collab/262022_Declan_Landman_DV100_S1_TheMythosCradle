@@ -146,7 +146,14 @@ header{
 
 .mapForm{
     height: 150vh;
-    background-color: rgb(142, 142, 142);
+    background-color: #ffffff;
+}
+
+.contactInfo p,
+.contactInfo p,
+.contactInfo p,
+.contactInfo{
+    margin: 0;
 }
 
 .contactContainer{
@@ -159,6 +166,22 @@ header{
 .contactInfo, .contactForm{
     width: 44%;
     padding: 37px;
+}
+
+.faceBook1,
+.tikTok2,
+.instaGram3,
+.twitX4{
+    height: 110px;
+    padding-right: 13px;
+    padding-bottom: 111px;
+    
+}
+
+.mapSquare{
+    width: 695px;
+    height: 617px;
+    border-radius: 30px;
 }
 
 .whole{
@@ -205,8 +228,16 @@ header{
     font-size: 19px;
     margin-top: 20px;
     resize: vertical;
-    color: #ccc;
+    color: #757575;
 }
+.contactForm textarea{
+    padding-right: 360px; 
+}
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+    color: #959494; 
+}
+
 
 .contactForm button{
     width: auto;
