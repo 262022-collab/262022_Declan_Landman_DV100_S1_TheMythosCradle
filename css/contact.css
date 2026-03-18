@@ -174,8 +174,7 @@ header{
 .contactForm form{
     
    
-    background-image: url("../assets/img/formBackground.png");
-    background-size: cover;
+    background-color: aquamarine;
     border-radius: 50px;
 }
 
@@ -221,6 +220,16 @@ header{
 .contactForm button{
     width: auto;
     align-self: flex-start;
+    padding: 24px 85px;
+    margin-left: 67px;
+    margin-bottom: 78px;
+    border-radius: 15px;
+    border: none;
+    background-color: #15d5f5;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 
@@ -231,7 +240,7 @@ header{
 }
 
 .contactForm button:hover{
-    background-color: #ee2c2c;
+    background-color: #002d68;
     
 }
 
