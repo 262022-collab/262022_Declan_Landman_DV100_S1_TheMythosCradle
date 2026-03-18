@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif
+}
+
+@font-face{
+font-family: "TitleFont";
+src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
+}
+
+header{
+    background-image: url("../assets/img/contactHeader.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   gap: 230px;
+   padding: 12px 0;
+   margin-left: 90px;
+   margin-right: 90px;
+   background-color: rgba(237, 243, 241, 0.7);
+   border-radius: 40px;
+}
+
+.mcLogo{
+    height: 70px;   
+}
+
+.navLinks{
+    display: flex;
+    gap: 37px;
+}
+
+.navLinks a{
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 600;
+    color:rgb(96, 95, 95);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 9px;
+    padding: 15px 20px;
+    width: 300px;
+}
+
+
+.magIcon {
+    font-size: 18px; 
+    color: rgb(153, 153, 153);
+    margin-right: 10px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 17px;
+    font-weight: 450;
+    font-family: 'Poppins', sans-serif   
+}
+
+.search-bar input::placeholder {
+    color: rgb(59, 59, 59);
+}
+
+.cart {
+    font-size: 24px;
+    cursor: pointer;
+    color: #444; 
+}
+
+.contactMainTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "TitleFont", sans-serif;
+    font-size: 113px;
+    color: #ffffff;
+}
