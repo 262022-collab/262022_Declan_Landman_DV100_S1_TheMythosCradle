@@ -63,6 +63,10 @@ header{
     color: #15d5f5;
 }
 
+.navLinks a.active{
+    color: #15d5f5;
+}
+
 .navLinks a{
     text-decoration: none;
     font-size: 21px;
@@ -114,7 +118,6 @@ header{
     color: #e9ad1c;
     padding-top: 290px;
 }
-
 
 .container{
     display: flex;
@@ -324,7 +327,7 @@ header{
 
 
 
-.adoptMainTitle{
+.adoptContactTitle{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -370,22 +373,17 @@ header{
     height: 14vh;
 }
 
-.whiteBackground{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    height: 110vh;
-    gap: 105px;
-}
-
+.whiteBackground,
 .blueBackground{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #002d68;
     height: 110vh;
     gap: 105px;
+    background-color: #ffffff;
+}
+.blueBackground{
+    background-color: #002d68;  
 }
 
 .adoptImg{
@@ -400,39 +398,32 @@ header{
     padding-right: 20px;
 }
 
-.titleTextBlack{
+.titleTextBlack,
+.titleTextWhite{
     font-size: 50px; 
     margin: 0;  
 }
-
 .titleTextWhite{
-    font-size: 50px; 
-    margin: 0;
     color: #ffffff;  
-}
-
-.discountPrice{
-    font-size: 28px;
-    color: grey;
-    margin: 0;
-}
-
-.discountPriceBlue{
-    font-size: 28px;
-    color: #15d5f5;
-    margin: 0;
-}
-
-.regPrice{
-    font-size: 28px;
-    color: grey;
-    text-decoration: line-through;
-    margin: 0;
 }
 
 .price{
     display: flex;
     gap: 61px;
+}
+
+.discountPrice,
+.discountPriceBlue,
+.regPrice{
+    font-size: 28px;
+    color: grey;
+    margin: 0;
+}
+.discountPriceBlue{
+    color: #15d5f5;
+}
+.regPrice{
+    text-decoration: line-through;
 }
 
 .starsRatingBox{
@@ -461,7 +452,8 @@ header{
     padding-right: 70px; 
 }
 
-.paraTextBlack{
+.paraTextBlack,
+.paraTextWhite{
     font-size: 19px;
     font-weight: 16pt;
     line-height: 1.8;
@@ -469,10 +461,6 @@ header{
 }
 
 .paraTextWhite{
-    font-size: 19px;
-    font-weight: 16pt;
-    line-height: 1.8;
-    margin: 0;
     color: #ffffff;
 }
 
@@ -549,14 +537,7 @@ header{
 
 
 
-.contactMainTitle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "TitleFont", sans-serif;
-    font-size: 113px;
-    color: #ffffff;
-}
+
 
 .dragonAndText{
     display: flex;
@@ -575,7 +556,6 @@ header{
   padding-right: 100px;
   padding-left: 70px;
   padding-bottom: 60px;
-  
 }
 
 .contactImg{
@@ -642,8 +622,7 @@ header{
 .twitX4{
     height: 110px;
     padding-right: 13px;
-    padding-bottom: 111px;
-    
+    padding-bottom: 111px;  
 }
 
 .mapSquare{
