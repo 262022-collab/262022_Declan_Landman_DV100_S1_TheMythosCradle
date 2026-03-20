@@ -59,11 +59,13 @@ header{
     gap: 37px;
 }
 
-.navLinks :hover{
+.navLinks :hover,
+.HAC :hover{
     color: #15d5f5;
 }
 
-.navLinks a.active{
+.navLinks a.active,
+.HAC a.active{
     color: #15d5f5;
 }
 
@@ -674,7 +676,7 @@ header{
     font-family: 'Poppins';
     font-size: 19px;
     margin-top: 20px;
-    resize: vertical;
+    resize:none;
     color: #757575;
 }
 .contactForm textarea{
@@ -834,11 +836,14 @@ header{
     line-height: 3;
 }
 
-.HAC{
+.HAC a{
     line-height: 2.4;
     font-size: 19px;
-    color: #626262;
+    color: #767474;
+    text-decoration: none;
+    font-weight: 500;
 }
+
 
 .smPicsText{
     padding-bottom: 57px;
