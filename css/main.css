@@ -39,6 +39,14 @@ header{
     gap: 37px;
 }
 
+.navLinks :hover{
+    color: #15d5f5;
+}
+
+.HAC :hover{
+    color: #15d5f5;
+}
+
 .navLinks a{
     text-decoration: none;
     font-size: 21px;
@@ -304,7 +312,6 @@ header{
 .imgBrandlogo{
     height: 75px;
     padding-bottom: 7px;
-
 }
 
 .brandDesc{
@@ -314,12 +321,10 @@ header{
     line-height: 1.6;
     padding-bottom:20px ;
     margin: 0;
-
 }
 
 .brand_Desc{
-    padding-bottom: 40px;
-    
+    padding-bottom: 40px;   
 }
 
 .comp{
@@ -342,7 +347,6 @@ header{
 .tikTok,
 .instaGram,
 .twitX{
-    
     height: 88px;
     padding-left: 8px;
 }
@@ -350,24 +354,19 @@ header{
 .smlText{
     padding-left: 8px;
     font-size: 20px;
-    font-weight: 600;
-    
+    font-weight: 600;  
 }
-
 
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-top:1px solid #e1e1e1;
-    
     align-items: center;
     text-align: center;
-    
     padding: 25px 40px;
     background-color: #ffffff;
     color: rgb(45, 45, 45);
-
 }
 
 .footerRight{
@@ -381,7 +380,6 @@ footer{
 .footerRight a{
     text-decoration: none;
     color: rgb(45, 45, 45);
-
 }
 
 .footerLeft{

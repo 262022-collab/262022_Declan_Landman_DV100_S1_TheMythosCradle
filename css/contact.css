@@ -110,6 +110,28 @@ header{
   
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .contactImg{
     width: 725px;
     height: 680px;
