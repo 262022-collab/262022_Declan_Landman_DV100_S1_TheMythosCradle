@@ -626,6 +626,12 @@ header{
     padding-right: 13px;
     padding-bottom: 111px;  
 }
+.faceBook1:hover,
+.tikTok2:hover,
+.instaGram3:hover,
+.twitX4:hover{
+    transform: scale(1.1);
+}
 
 .mapSquare{
     width: 695px;
@@ -855,6 +861,12 @@ header{
 .twitX{
     height: 88px;
     padding-left: 8px;
+}
+.faceBook:hover,
+.tikTok:hover,
+.instaGram:hover,
+.twitX:hover{
+    transform: scale(1.1);
 }
 
 .smlText{
