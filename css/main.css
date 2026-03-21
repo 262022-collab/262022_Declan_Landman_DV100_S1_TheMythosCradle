@@ -22,6 +22,7 @@ header{
     background-image: url("../assets/img/adoptHeader.png");
     background-size: cover;
     background-repeat: no-repeat;
+    
     height: 50vh;
     padding-top: 35px;
     display: flex;
@@ -115,10 +116,31 @@ header{
     display: flex;
     justify-content: flex-end;
     padding-right: 120px;
+    padding-top: 290px;
     font-family: "TitleFont", sans-serif;
     font-size: 110px;
     color: #e9ad1c;
-    padding-top: 290px;
+    margin-top: 0px;
+    
+}
+
+.MainTitle p{
+    margin-bottom: 0;
+}
+
+.slogan{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 180px;
+    
+     font-size: 25px;
+     
+     
+    color: #ffffff;
+    font-family: 'Metamorphous', sans-serif
+    
+    
+    
 }
 
 .uniAndText{
