@@ -372,7 +372,7 @@ header{
 
 .yellowCont{
     display: flex;
-    gap: 405px;
+    gap: 395px;
 }
 
 .yellowLeft{
@@ -422,6 +422,7 @@ header{
     font-size: 23px;
     color: #ffffff;
     font-weight: 500;
+    padding-right: 22px;
 }
 
 
@@ -435,7 +436,23 @@ input#num{
     background-color: #fae4ae;
     border: none;
     color: #3a2b64;
+    margin-right: 36px;
 }
+
+select#topic{
+    height: 60px;
+    width: 220px;
+    padding-left: 24px;
+    font-size: 23px;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: #fae4ae;
+    border: none;
+    color: #3a2b64;
+}
+
+
+
 
 
 .adoptContactTitle{
