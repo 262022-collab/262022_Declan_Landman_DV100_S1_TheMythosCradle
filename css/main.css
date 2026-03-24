@@ -526,7 +526,8 @@ select#topic{
 
 .titleTextBlack,
 .titleTextWhite{
-    font-size: 50px; 
+    font-size: 50px;
+    font-weight: 600;
     margin: 0;  
 }
 .titleTextWhite{
@@ -542,7 +543,8 @@ select#topic{
 .discountPriceBlue,
 .regPrice{
     font-size: 28px;
-    color: grey;
+    font-weight: 500;
+    color: #9b9b9b;
     margin: 0;
 }
 .discountPriceBlue{
@@ -573,7 +575,7 @@ select#topic{
 }
 
 .label{
-    color: gray;
+    color: #a2a2a2;
     font-size: 15px;
     margin: 0;
 }
@@ -581,12 +583,13 @@ select#topic{
 .paraTextBlack,
 .paraTextWhite{
     font-size: 19px;
-    font-weight: 16pt;
+    font-weight: 500;
     line-height: 1.8;
     margin: 0;
 }
 .paraTextWhite{
     color: #ffffff;
+    font-weight: 400;
 }
 
 .adoptButtons{
@@ -638,10 +641,10 @@ select#topic{
 }
 
 .info-box{
-    width:700px;
+    width:745px;
     border-top:1px solid rgb(171, 171, 171);
-    font-size: 17px;
-    color:gray;
+    font-size: 19px;
+    color: #a8a7a7;
     padding-top: 38px;
     margin-top: 45px;
     line-height: 2.3;
@@ -653,7 +656,7 @@ select#topic{
 }
 
 .item{
-    width:105px;
+    width:120px;
     margin: 0;
 }
 
