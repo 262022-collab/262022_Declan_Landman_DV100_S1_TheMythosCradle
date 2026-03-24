@@ -132,10 +132,8 @@ header{
     display: flex;
     justify-content: flex-end;
     margin-right: 180px;
-    
-     font-size: 25px;
-     
-     
+    font-size: 25px;
+    margin-top: 0;
     color: #ffffff;
     font-family: 'Metamorphous', sans-serif
     
@@ -156,13 +154,16 @@ header{
 }
 
 
-.sliderimgone{
+#sliderimgone{
     padding-right: 95px;
     padding-left: 138px;
     width: 714px;
     height: auto;
     
 }
+
+
+
 
 .uniText p,
 .uniText p,
@@ -194,6 +195,18 @@ header{
     line-height: 1.6;
     padding-bottom: 40px;
 }
+
+.calBut{
+    border-radius: 14px;
+    border: none;
+    padding: 22px 60px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #15d5f5;
+    font-family: 'Poppins', sans-serif
+}
+
 
 .birdAndText{
     display: flex;
@@ -251,7 +264,7 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 115vh;
+    height: 125vh;
     background-color: #002d68;   
 }
 
@@ -321,6 +334,7 @@ header{
     color: #ffffff;
     font-size: 24px;
     text-align: center;
+    padding-top: 10px;
 }
 
 .percyDesc,
@@ -330,15 +344,19 @@ header{
     color: #ffffff;
     text-align: center;
     line-height: 1.8;
+    margin-bottom: 50px;
 }
 
 .CALbutton button{
     border-radius: 16px;
+    margin-top: 40px;
+    
     padding: 20px 25px;
     font-size: 25px;
     color: #ffffff;
     background-color: #15d5f5;
     font-family: 'Poppins', sans-serif
+    
 }
 
 
@@ -346,6 +364,49 @@ header{
 
 
 
+.yellowbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellowCont{
+    display: flex;
+    gap: 405px;
+}
+
+.yellowLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.divVert{
+    font-size: 48px;
+    font-weight: 200;
+    color: #7c9397;
+}
+.pageRes{
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+}
+
+.filt,
+.fourcircles {
+    height: 21px;
+}
+.filtWord{
+    font-size: 23px;
+    color: #ffffff;
+}
 
 .adoptContactTitle{
     display: flex;
@@ -491,6 +552,8 @@ header{
 }
 
 .counterButBlue{
+    display: flex;
+    
     border-radius: 11px;
     border-color: #002d68;
     padding: 23px 51px;
@@ -501,6 +564,7 @@ header{
 }
 
 .counterButOrange{
+    
     border-radius: 11px;
     border-color: #e9ad1c;
     padding: 23px 51px;
@@ -508,6 +572,13 @@ header{
     color: #ffffff;
     background-color: #e9ad1c;
     font-family: 'Poppins', sans-serif
+}
+.incDec{
+    color: #ffffff;
+    background-color: #002d68;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .atcBut{
