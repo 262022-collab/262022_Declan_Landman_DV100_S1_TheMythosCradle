@@ -191,17 +191,6 @@ header{
     padding-bottom: 40px;
 }
 
-.calBut{
-    border-radius: 14px;
-    border: none;
-    padding: 22px 60px;
-    font-size: 23px;
-    font-weight: 600;
-    color: #ffffff;
-    background-color: #15d5f5;
-    font-family: 'Poppins', sans-serif
-}
-
 .sanctuary{
     display: flex;
     align-items: center;
@@ -629,6 +618,14 @@ select#topic{
     background-color: #15d5f5;
     font-family: 'Poppins', sans-serif
 }
+.atcBut:hover,
+.CALbutton button:hover{
+    background-color: #109ab3;
+}
+.atcBut:active,
+.CALbutton button:active{
+    background-color: #65bccc;
+}
 
 .info-box{
     width:700px;
@@ -677,18 +674,17 @@ select#topic{
     flex-direction: column;
 }
 
-
-.dragonAndText{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;   
-}
-
 .aboutSite{
     display: flex;
     align-items: center;
     height: 110vh;
     background-color: #ffffff; 
+}
+
+.dragonAndText{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;   
 }
 
 .aboutText{
@@ -736,18 +732,18 @@ select#topic{
     background-color: #ffffff;
 }
 
-.contactInfo p,
-.contactInfo p,
-.contactInfo p,
-.contactInfo{
-    margin: 0;
-}
-
 .contactContainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+}
+
+.contactInfo p,
+.contactInfo p,
+.contactInfo p,
+.contactInfo{
+    margin: 0;
 }
 
 .contactInfo, .contactForm{
@@ -801,7 +797,6 @@ select#topic{
     margin-bottom: 0;
 }
 
-
 .formElement label{
     color: white;
     font-size: 23px;
@@ -830,7 +825,6 @@ select#topic{
     color: #959494; 
 }
 
-
 .contactForm button{
     width: auto;
     align-self: flex-start;
@@ -849,97 +843,9 @@ select#topic{
 .contactForm button:hover{
     background-color: #002d68;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contactForm button:active{
+    background-color: #1f4d89;
+}
 
 
 
@@ -986,7 +892,6 @@ select#topic{
     text-decoration: none;
     font-weight: 500;
 }
-
 
 .smPicsText{
     padding-bottom: 57px;
@@ -1041,6 +946,28 @@ footer{
     margin-left: 100px;
 }
 
+
+.fixed-btn {
+    position: fixed;
+    bottom: 20px;  
+    right: 45px;  
+    border-radius: 14px;
+    border: none;
+    padding: 22px 90px;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #907b1e;
+    font-family: 'Poppins', sans-serif
+    
+}
+.fixed-btn:hover{
+    background-color: #e9ad1c;
+}
+.fixed-btn:active{
+    background-color: #eace8c;
+}
 
 
 
