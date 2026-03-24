@@ -8,58 +8,6 @@ font-family: "TitleFont";
 src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
 }
 
-header{
-    background-image: url("../assets/img/homeHeader.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 115vh;
-    padding-top: 35px;
-    display: flex;
-    flex-direction: column;
-}
-
-.headerAdopt{
-    position: relative;
-   
-    
-    height: 50vh;
-    padding-top: 35px;
-    display: flex;
-    flex-direction: column;
-}
-
-.headerAdopt::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../assets/img/adoptHeader.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    filter:blur(6px);
-    z-index: 0;
-
-}
-
-.navbar,
-.adoptContactTitle {
-    position: relative;
-    z-index: 1;
-}
-
-.headerContact{
-    background-image: url("../assets/img/contactHeader.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    padding-top: 35px;
-    display: flex;
-    flex-direction: column;
-}
-
 .navbar{
    display: flex;
    justify-content: center; 
@@ -129,7 +77,6 @@ header{
 
 .cart {
     position: relative;
-    
     font-size: 24px;
     cursor: pointer;
     color: #444;  
@@ -138,26 +85,47 @@ header{
 .tooltip {
     position: absolute;
     bottom: -35px; 
-    
-    
-    
     background-color: #ffffff;
     color: black;
     border: 2px solid black;
     padding: 6px 10px;
-    
     font-size: 14px;
     white-space: nowrap;
-
     opacity: 0;
-    
-    
 }
-
 
 .cart:hover .tooltip {
     opacity: 1;
     transition-delay: 1.2s;
+}
+.navbar,
+.adoptContactTitle {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+header{
+    background-image: url("../assets/img/homeHeader.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 115vh;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContact{
+    background-image: url("../assets/img/contactHeader.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
 }
 
 .MainTitle{
@@ -169,7 +137,6 @@ header{
     font-size: 110px;
     color: #e9ad1c;
     margin-top: 0px;
-    
 }
 
 .MainTitle p{
@@ -184,14 +151,6 @@ header{
     margin-top: 0;
     color: #ffffff;
     font-family: 'Metamorphous', sans-serif
-    
-    
-    
-}
-
-.uniAndText{
-    display: flex;
-    align-items: center;
 }
 
 .unicorn{
@@ -201,24 +160,23 @@ header{
     background-color: #002d68; 
 }
 
+.uniAndText{
+    display: flex;
+    align-items: center;
+}
 
 #sliderimgone{
     padding-right: 95px;
     padding-left: 138px;
     width: 714px;
     height: auto;
-    
 }
-
-
-
 
 .uniText p,
 .uniText p,
 .uniText p{
     margin: 0;
 }
-
 
 .uniTitle{
     padding-bottom: 11px;
@@ -228,7 +186,6 @@ header{
 }
 
 .uniSubTitle{
-    
     line-height: 1.3;
     color: #ffffff;
     font-size: 35pt;
@@ -255,18 +212,17 @@ header{
     font-family: 'Poppins', sans-serif
 }
 
-
-.birdAndText{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;   
-}
-
 .sanctuary{
     display: flex;
     align-items: center;
     height: 90vh;
     background-color: #ffffff; 
+}
+
+.birdAndText{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;   
 }
 
 .sanctuaryText{
@@ -398,18 +354,40 @@ header{
 .CALbutton button{
     border-radius: 16px;
     margin-top: 40px;
-    
     padding: 20px 25px;
     font-size: 25px;
     color: #ffffff;
     background-color: #15d5f5;
     font-family: 'Poppins', sans-serif
-    
 }
 
 
 
 
+
+
+.headerAdopt{
+    position: relative;
+    height: 50vh;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerAdopt::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/adoptHeader.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter:blur(6px);
+    z-index: 0;
+}
 
 
 .yellowbar{
