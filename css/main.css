@@ -379,19 +379,22 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .filterIcons{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+   
 }
 
 .divVert{
     font-size: 48px;
     font-weight: 200;
     color: #7c9397;
+    padding-right: 35px;
+    padding-left: 93px;
 }
 .pageRes{
     font-size: 19px;
@@ -406,7 +409,34 @@ header{
 .filtWord{
     font-size: 23px;
     color: #ffffff;
+    padding-right: 33px;
+    padding-left: 18px;
 }
+
+.yellowRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ssb{
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+input#num{
+    height: 60px;
+    width: 36px;
+    padding-left: 24px;
+    font-size: 23px;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: #fae4ae;
+    border: none;
+    color: #3a2b64;
+}
+
 
 .adoptContactTitle{
     display: flex;
