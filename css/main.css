@@ -430,12 +430,7 @@ header{
 }
 
 .yellowLeft,
-.yellowRight{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+.yellowRight,
 .filterIcons{
     display: flex;
     justify-content: center;
