@@ -594,55 +594,17 @@ select#topic{
     padding-top: 13px;
 }
 
-.counterButBlue,
-.counterButOrange{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    border-radius: 11px;
-    border: none;
-    padding: 5px 16px;
-    font-size: 20px;
-    font-weight: 700;
-    color: #ffffff;
-    background-color: #002d68;
-    font-family: 'Poppins', sans-serif
-}
-.counterButOrange{
-    background-color: #e9ad1c;
-}
-.min:active,
-.plus:active{
-    color: #15d5f5;
-}
-
-.atcBut{
-    border-radius: 14px;
-    border: none;
-    padding: 22px 60px;
-    font-size: 23px;
-    font-weight: 600;
-    color: #ffffff;
-    background-color: #15d5f5;
-    font-family: 'Poppins', sans-serif
-}
-.atcBut:hover,
-.CALbutton button:hover{
-    background-color: #109ab3;
-}
-.atcBut:active,
-.CALbutton button:active{
-    background-color: #65bccc;
-}
-
-.countbuttest{
+.countButBlue,
+.countButOrange{
     display: flex;
     align-items: center;
     gap: 10px;
     background-color: #002d68;
     padding: 15px 0px;
     border-radius: 12px;
+}
+.countButOrange{
+    background-color: #e9ad1c;
 }
 
 #countDisp{
@@ -671,6 +633,29 @@ select#topic{
 #plusBut:hover{
     background-color: #114281;
 }
+
+
+
+.atcBut{
+    border-radius: 14px;
+    border: none;
+    padding: 22px 60px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #15d5f5;
+    font-family: 'Poppins', sans-serif
+}
+.atcBut:hover,
+.CALbutton button:hover{
+    background-color: #109ab3;
+}
+.atcBut:active,
+.CALbutton button:active{
+    background-color: #65bccc;
+}
+
+
 
 .info-box{
     width:745px;
