@@ -636,6 +636,17 @@ select#topic{
     background-color: #65bccc;
 }
 
+.countbuttest{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #002d68;
+    padding: 15px 0px;
+    border-radius: 12px;
+}
+
+
+
 .info-box{
     width:745px;
     border-top:1px solid rgb(171, 171, 171);
