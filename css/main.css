@@ -607,7 +607,7 @@ select#topic{
     background-color: #e9ad1c;
 }
 
-#countDisp{
+.countDisp{
     font-size: 20px;
     font-weight: 700;
     width: 40px;
@@ -615,10 +615,10 @@ select#topic{
     color: white;
 }
 
-#minButB,
-#plusButB,
-#minButO,
-#plusButO{
+.minButB,
+.plusButB,
+.minButO,
+.plusButO{
     width: 50px;
     height: 50px;
     background-color: #002d68;
@@ -631,16 +631,16 @@ select#topic{
     cursor: pointer;
     transition: 0.3s;
 }
-#minButO,
-#plusButO{
+.minButO,
+.plusButO{
     background-color: #e9ad1c;
 }
-#minButB:hover,
-#plusButB:hover{
+.minButB:hover,
+.plusButB:hover{
     background-color: #114281;
 }
-#minButO:hover,
-#plusButO:hover{
+.minButO:hover,
+.plusButO:hover{
     background-color: #ecb73b;
 }
 

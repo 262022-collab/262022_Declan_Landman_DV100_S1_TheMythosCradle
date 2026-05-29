@@ -1,19 +1,20 @@
-let plusButB=document.getElementById("plusButB");
-let minButB=document.getElementById("minButB");
-let countDisp=document.getElementById("countDisp");
+let plusBut1=document.getElementById("plusBut1");
+let minBut1=document.getElementById("minBut1");
+let countDisp1=document.getElementById("countDisp1");
+
 
 let count=0;
 
-plusButB.addEventListener("click", incCount);
+plusBut1.addEventListener("click", incCount);
 
 function incCount(){
     for(let i=0;i<1;i++){
         count++;
     }
-    countDisp.textContent=count;
+    countDisp1.textContent=count;
 }
 
-minButB.addEventListener("click", decCount);
+minBut1.addEventListener("click", decCount);
 
 function decCount(){
     for(let i=0;i<1;i++){
@@ -21,6 +22,6 @@ function decCount(){
             count--;
         }
     }
-    countDisp.textContent=count;
+    countDisp1.textContent=count;
 }
 
