@@ -663,8 +663,13 @@ select#topic{
     border-radius: 10px;
     font-size: 20px;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif
-    
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#minBut:hover,
+#plusBut:hover{
+    background-color: #114281;
 }
 
 .info-box{
