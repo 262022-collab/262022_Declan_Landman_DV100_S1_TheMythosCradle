@@ -615,8 +615,10 @@ select#topic{
     color: white;
 }
 
-#minBut,
-#plusBut{
+#minButB,
+#plusButB,
+#minButO,
+#plusButO{
     width: 50px;
     height: 50px;
     background-color: #002d68;
@@ -629,9 +631,17 @@ select#topic{
     cursor: pointer;
     transition: 0.3s;
 }
-#minBut:hover,
-#plusBut:hover{
+#minButO,
+#plusButO{
+    background-color: #e9ad1c;
+}
+#minButB:hover,
+#plusButB:hover{
     background-color: #114281;
+}
+#minButO:hover,
+#plusButO:hover{
+    background-color: #ecb73b;
 }
 
 
