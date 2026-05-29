@@ -645,7 +645,27 @@ select#topic{
     border-radius: 12px;
 }
 
+#countDisp{
+    font-size: 20px;
+    font-weight: 700;
+    width: 40px;
+    text-align: center;
+    color: white;
+}
 
+#minBut,
+#plusBut{
+    width: 50px;
+    height: 50px;
+    background-color: #002d68;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif
+    
+}
 
 .info-box{
     width:745px;
