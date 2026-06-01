@@ -117,7 +117,12 @@ let viewCrad=document.getElementById("viewCrad");
 let cradPop=document.getElementById("cradPop");
 let closePop=document.getElementById("closePop");
 let cradItem=document.getElementById("cradItem");
-
+let add1=document.getElementById("add1");
+let add2=document.getElementById("add2");
+let add3=document.getElementById("add3");
+let add4=document.getElementById("add4");
+let add5=document.getElementById("add5");
+let add6=document.getElementById("add6");
 
 viewCrad.addEventListener("click", function(){
     cradPop.style.display="block";
@@ -127,7 +132,7 @@ closePop.addEventListener("click", function(){
     cradPop.style.display="none";
 });
 
-let add1=document.getElementById("add1");
+
 
 function addPet(name,price,count){
     if(count===0){
@@ -158,5 +163,45 @@ add1.addEventListener("click",function(){
         "Azuron",
         "R2500",
         count1
+    );
+});
+
+add2.addEventListener("click",function(){
+    addPet(
+        "Yuki",
+        "R4500",
+        count2
+    );
+});
+
+add3.addEventListener("click",function(){
+    addPet(
+        "Aurelia",
+        "R6500",
+        count3
+    );
+});
+
+add4.addEventListener("click",function(){
+    addPet(
+        "Lumina",
+        "R40000",
+        count4
+    );
+});
+
+add5.addEventListener("click",function(){
+    addPet(
+        "Starwind",
+        "R5000",
+        count5
+    );
+});
+
+add1.addEventListener("click",function(){
+    addPet(
+        "Briar",
+        "R3500",
+        count6
     );
 });
