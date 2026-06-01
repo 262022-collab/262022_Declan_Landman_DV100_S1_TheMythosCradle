@@ -115,7 +115,13 @@ minBut6.addEventListener("click", decCount6);
 
 let viewCrad=document.getElementById("viewCrad");
 let cradPop=document.getElementById("cradPop");
+let closePop=document.getElementById("closePop");
+
 
 viewCrad.addEventListener("click", function(){
     cradPop.style.display="block";
+});
+
+closePop.addEventListener("click", function(){
+    cradPop.style.display="none";
 });
