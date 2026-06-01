@@ -111,3 +111,11 @@ minBut5.addEventListener("click", decCount5);
 
 plusBut6.addEventListener("click", incCount6);
 minBut6.addEventListener("click", decCount6);
+
+
+let viewCrad=document.getElementById("viewCrad");
+let cradPop=document.getElementById("cradPop");
+
+viewCrad.addEventListener("click", function(){
+    cradPop.style.display="block";
+});
