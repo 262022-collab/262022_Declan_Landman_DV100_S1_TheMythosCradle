@@ -116,7 +116,8 @@ minBut6.addEventListener("click", decCount6);
 let viewCrad=document.getElementById("viewCrad");
 let cradPop=document.getElementById("cradPop");
 let closePop=document.getElementById("closePop");
-
+let cradItem=document.getElementById("cradItem");
+let add1=document.getElementById("add1");
 
 viewCrad.addEventListener("click", function(){
     cradPop.style.display="block";
@@ -124,4 +125,35 @@ viewCrad.addEventListener("click", function(){
 
 closePop.addEventListener("click", function(){
     cradPop.style.display="none";
+});
+
+function addAnimal(name,price,count){
+    if(count===0){
+        return;
+        let item=document.createElement("div");
+        item.className="cradAnimal";
+
+        item.innerHTML=`
+        
+        <p>${name}</p>
+        <div class="popCount">
+        <button>-</button>
+        <span>${count}</span>
+        <button>+</button>
+        </div>
+        
+        <p>${price}</p>
+        `;
+
+        cradItem.appendChild(item);
+    }
+
+}
+
+add1.addEventListener("click",function(){
+    addPet(
+        "Azuron",
+        "R2500",
+        count1
+    );
 });
