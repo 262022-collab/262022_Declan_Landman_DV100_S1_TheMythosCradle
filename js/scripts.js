@@ -112,6 +112,12 @@ minBut5.addEventListener("click", decCount5);
 plusBut6.addEventListener("click", incCount6);
 minBut6.addEventListener("click", decCount6);
 
+let priceTot=document.getElementById("priceTot");
+
+let cradData=[];
+
+
+
 
 let viewCrad=document.getElementById("viewCrad");
 let cradPop=document.getElementById("cradPop");
@@ -138,30 +144,84 @@ function addPet(name,price,count){
     if(count===0){
         return;
     }
-        let item=document.createElement("div");
-        item.className="cradAnimal";
 
-        item.innerHTML=`
-        
-        <p>${name}</p>
-        <div class="popCount">
-        <button>-</button>
-        <span>${count}</span>
-        <button>+</button>
-        </div>
-        
-        <p>${price}</p>
-        `;
-
-        cradItem.appendChild(item);
+    for(let i=0;i<cradData.length;i++){
+        if(cradData[i].name===name){
+            cradData[i].quan=count;
+            revealCrad();
+            return;
+        }
     }
+
+    cradData.push({
+        name:name,
+        price:price,
+        quan:count
+    });
+
+    revealCrad();
+    }
+
+    function revealCrad(){
+        cradItem.innerHTML="";
+        let tot=0;
+
+        for(let i=0;i<cradData.length;i++){
+            let pet=cradData[i];
+            tot=tot+(pet.price*pet.quan);
+            let item=document.createElement('div');
+            item.className="cradPet";
+
+            item.innerHTML=`
+            <p>${pet.name}</p>
+            <div class="popCount">
+            <button onclick="decPop(${i})">-</button>
+            <span>${pet.quan}</span>
+            <button onclick="incPop(${i})">+</button>
+            </div>
+            <p>R${pet.price}</p>
+            `;
+            cradItem.appendChild(item);
+        
+        }
+        priceTot.textContent="R"+tot;
+    }
+
+
+    function incPop(index){
+        cradData[index].quan++;
+
+        revealCrad();
+    }
+
+    function decPop(index){
+        if(cradData[index].quan>1){
+            cradData[index].quan--;
+        }
+        else{
+            cradData.splice(index,1);
+        }
+        
+
+        revealCrad();
+    }
+
+
+
+
+
+
+
+
+    
+   
 
 
 
 add1.addEventListener("click",function(){
     addPet(
         "Azuron",
-        "R2500",
+        "2500",
         count1
     );
 });
@@ -169,7 +229,7 @@ add1.addEventListener("click",function(){
 add2.addEventListener("click",function(){
     addPet(
         "Yuki",
-        "R4500",
+        "4500",
         count2
     );
 });
@@ -177,7 +237,7 @@ add2.addEventListener("click",function(){
 add3.addEventListener("click",function(){
     addPet(
         "Aurelia",
-        "R6500",
+        "6500",
         count3
     );
 });
@@ -185,7 +245,7 @@ add3.addEventListener("click",function(){
 add4.addEventListener("click",function(){
     addPet(
         "Lumina",
-        "R40000",
+        "40000",
         count4
     );
 });
@@ -193,15 +253,15 @@ add4.addEventListener("click",function(){
 add5.addEventListener("click",function(){
     addPet(
         "Starwind",
-        "R5000",
+        "5000",
         count5
     );
 });
 
-add1.addEventListener("click",function(){
+add6.addEventListener("click",function(){
     addPet(
         "Briar",
-        "R3500",
+        "3500",
         count6
     );
 });
