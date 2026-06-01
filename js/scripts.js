@@ -117,7 +117,7 @@ let viewCrad=document.getElementById("viewCrad");
 let cradPop=document.getElementById("cradPop");
 let closePop=document.getElementById("closePop");
 let cradItem=document.getElementById("cradItem");
-let add1=document.getElementById("add1");
+
 
 viewCrad.addEventListener("click", function(){
     cradPop.style.display="block";
@@ -127,9 +127,12 @@ closePop.addEventListener("click", function(){
     cradPop.style.display="none";
 });
 
-function addAnimal(name,price,count){
+let add1=document.getElementById("add1");
+
+function addPet(name,price,count){
     if(count===0){
         return;
+    }
         let item=document.createElement("div");
         item.className="cradAnimal";
 
@@ -148,7 +151,7 @@ function addAnimal(name,price,count){
         cradItem.appendChild(item);
     }
 
-}
+
 
 add1.addEventListener("click",function(){
     addPet(
