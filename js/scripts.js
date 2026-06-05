@@ -116,6 +116,11 @@ let priceTot=document.getElementById("priceTot");
 
 let cradData=[];
 
+let savedCrad=sessionStorage.getItem("cradData");
+if(savedCrad){
+    cradData=JSON.parse(savedCrad);
+}
+
 
 
 
@@ -132,6 +137,7 @@ let add6=document.getElementById("add6");
 let cradBadge=document.getElementById("cradBadge");
 let butBadge=document.getElementById("butBadge");
 let cart=document.getElementById("cart");
+revealCrad();
 
 
 viewCrad.addEventListener("click", function(){
@@ -195,6 +201,11 @@ function addPet(name,price,count){
         }
         priceTot.textContent="R"+tot;
         upBadge();
+
+        sessionStorage.setItem(
+            "cradData",
+            JSON.stringify(cradData)
+        );
     }
 
     function upBadge(){
