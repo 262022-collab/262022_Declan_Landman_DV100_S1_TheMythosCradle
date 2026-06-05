@@ -226,8 +226,15 @@ function addPet(name,price,count){
 
 
     function delPet(index){
-        cradData.splice(index,1);
-        revealCrad();
+
+        let ans=confirm(
+            "Are you sure you want to remove this creature from your cradle? :("
+        );
+        if(ans){
+            cradData.splice(index,1);
+            revealCrad();
+        }
+
     }
 
 
