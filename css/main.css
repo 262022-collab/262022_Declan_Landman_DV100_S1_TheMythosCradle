@@ -165,20 +165,29 @@ header{
 .unicorn{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 115vh;
     background-color: #002d68; 
 }
 
 .uniAndText{
     display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
+}
+
+#slied{
+    flex: 1;
+    max-width: 520px;
 }
 
 .sliderimgone{
-    padding-right: 95px;
-    padding-left: 138px;
-    width: 714px;
-    height: auto;
+    
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    display: block;
 }
 
 .uniText p,
