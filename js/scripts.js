@@ -194,7 +194,9 @@ function addPet(name,price,count){
             <button onclick="incPop(${i})">+</button>
             </div>
             <p>R${pet.price}</p>
-            <button onclick="delPet(${i})">Del</button>
+            <button class="deleteBtn" onclick="delPet(${i})">
+                 Remove
+            </button>
             `;
             cradItem.appendChild(item);
         
