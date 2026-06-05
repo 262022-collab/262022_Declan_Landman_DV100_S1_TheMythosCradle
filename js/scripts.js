@@ -129,6 +129,7 @@ let add3=document.getElementById("add3");
 let add4=document.getElementById("add4");
 let add5=document.getElementById("add5");
 let add6=document.getElementById("add6");
+let cradBadge=document.getElementById("cradBadge");
 
 viewCrad.addEventListener("click", function(){
     cradPop.style.display="block";
@@ -185,8 +186,16 @@ function addPet(name,price,count){
         
         }
         priceTot.textContent="R"+tot;
+        upBadge();
     }
 
+    function upBadge(){
+        let totPet=0;
+        for(let i=0;i<cradData.length;i++){
+            totPet+=cradData[i].quan;
+        }
+        cradBadge.textContent=totPet;
+    }
 
     function incPop(index){
         cradData[index].quan++;
