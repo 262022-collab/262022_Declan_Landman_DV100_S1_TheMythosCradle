@@ -188,6 +188,7 @@ function addPet(name,price,count){
             <button onclick="incPop(${i})">+</button>
             </div>
             <p>R${pet.price}</p>
+            <button onclick="delPet(${i})">Del</button>
             `;
             cradItem.appendChild(item);
         
@@ -223,6 +224,11 @@ function addPet(name,price,count){
         revealCrad();
     }
 
+
+    function delPet(index){
+        cradData.splice(index,1);
+        revealCrad();
+    }
 
 
 
