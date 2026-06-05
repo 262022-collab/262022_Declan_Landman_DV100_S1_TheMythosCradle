@@ -131,8 +131,14 @@ let add5=document.getElementById("add5");
 let add6=document.getElementById("add6");
 let cradBadge=document.getElementById("cradBadge");
 let butBadge=document.getElementById("butBadge");
+let cart=document.getElementById("cart");
+
 
 viewCrad.addEventListener("click", function(){
+    cradPop.style.display="block";
+});
+
+cart.addEventListener("click", function(){
     cradPop.style.display="block";
 });
 
