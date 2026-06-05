@@ -130,6 +130,7 @@ let add4=document.getElementById("add4");
 let add5=document.getElementById("add5");
 let add6=document.getElementById("add6");
 let cradBadge=document.getElementById("cradBadge");
+let butBadge=document.getElementById("butBadge");
 
 viewCrad.addEventListener("click", function(){
     cradPop.style.display="block";
@@ -195,6 +196,7 @@ function addPet(name,price,count){
             totPet+=cradData[i].quan;
         }
         cradBadge.textContent=totPet;
+        butBadge.textContent=totPet;
     }
 
     function incPop(index){

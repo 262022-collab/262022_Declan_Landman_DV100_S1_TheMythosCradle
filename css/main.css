@@ -83,7 +83,7 @@ src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
 }
 
 .cradBadge{
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1026,6 +1026,22 @@ footer{
 }
 .fixedBut:active{
     background-color: #eace8c;
+}
+
+.butBadge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 24px;
+    height: 24px;
+    border-radius:50% ;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 
