@@ -306,3 +306,26 @@ add6.addEventListener("click",function(){
         count6
     );
 });
+
+
+let searchPet=document.getElementById("searchPet");
+
+if(searchPet){
+    searchPet.addEventListener("change",goToPetSection);
+}
+
+function goToPetSection(){
+    let pets=searchPet.value.toLowerCase();
+    let locate={
+        azuron:"../pages/Adopt.html#azuron",
+        yuki:"../pages/Adopt.html#yuki",
+        aurelia:"../pages/Adopt.html#aurelia",
+        lumina:"../pages/Adopt.html#lumina",
+        starwind:"../pages/Adopt.html#starwind",
+        briar:"../pages/Adopt.html#briar"
+    };
+
+    if(locate[pets]){
+        window.location.href=locate[pets];
+    }
+}
