@@ -331,3 +331,17 @@ function goToPetSection(){
         window.location.href=locate[pets];
     }
 }
+
+
+
+
+//References
+//https://htmlcheatsheet.com/js/
+//https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+//https://www.w3schools.com/js/js_htmldom.asp
+//https://www.w3schools.com/js/js_function_advanced.asp
+//https://www.w3schools.com/JSREF/met_win_confirm.asp
+//just w3schools in general.
+//https://www.youtube.com/watch?v=NO5kUNxGIu0- video on understanding DOM
+//https://www.youtube.com/watch?v=GihQAC1I39Q- video on local/session storage.
+//https://www.youtube.com/watch?v=lkIFF4maKMU -100+ JavaScript Concepts you Need to Know
